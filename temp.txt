@@ -1,0 +1,18 @@
+
+print("***** Python program for temperature conversion*****")
+n=int(input("enter your choice: 1.celsius to farenheit, 2. farenheit to celsius\n"))
+
+if(n==1):
+        celsius=float(input("enter temp. in celsius: "))
+        farenheit=(celsius*1.8)+32
+        print("temp.in farenheit is: ")
+        print(farenheit)
+
+elif(n==2):
+        farenheit=float(input("enter temp. in farenheit: "))
+        celsius=(farenheit-32)/1.8
+        print("temp.in celsius is: ")
+        print(celsius)
+
+else:
+        print("invalid choice")
